@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(33, 33, 33, 0.674);
+}
+h1{
+    font-family: "Battambang", system-ui;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.c{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius:20px ;
+}
+input{
+    width: 250px;
+    font-size: 15px;
+    font-family: "Battambang", system-ui;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+button{
+    font-family: "Battambang", system-ui;
+    font-size: 15px;
+    background-color: aqua;
+    display: block;
+    padding: 15px auto 0;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+button:focus{
+    background-color: rgb(7, 218, 218);
+    color: white;
+    transform: scale(0.97); 
+}
+h2{
+    font-family: "Battambang", system-ui;
+    font-size: 15px;
+    position: relative;
+    text-align: left;
+    margin-top: 5px;
+    color: white;
+}
